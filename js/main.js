@@ -36,6 +36,28 @@ window.addEventListener("load", () => {
   }
 }, { once: true });
 
+function loadTawkChat() {
+  if (window.Tawk_API) return;
+
+  window.Tawk_API = window.Tawk_API || {};
+  window.Tawk_LoadStart = new Date();
+
+  const chatScript = document.createElement("script");
+  chatScript.async = true;
+  chatScript.src = "https://embed.tawk.to/6afc63a231f8653cc3bb52ac/1k89nr5u0";
+  chatScript.charset = "UTF-8";
+  chatScript.setAttribute("crossorigin", "*");
+  document.head.append(chatScript);
+}
+
+window.addEventListener("load", () => {
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(loadTawkChat, { timeout: 5000 });
+  } else {
+    window.setTimeout(loadTawkChat, 2500);
+  }
+}, { once: true });
+
 if (!reduceMotion && "IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
@@ -75,8 +97,4 @@ if (menuToggle && primaryNav) {
 const year = document.querySelector("#current-year");
 if (year) year.textContent = String(new Date().getFullYear());
 
-/*
- * Live chat Tawk.to belum diaktifkan.
- * Tambahkan embed script resmi setelah akun/properti Tawk.to AJIEEB dibuat.
- * Google Maps hanya ditambahkan ke website klien bila alamat publik diberikan.
- */
+// Google Maps hanya ditambahkan ke website klien bila alamat publik diberikan.

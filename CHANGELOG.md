@@ -4,6 +4,12 @@ Semua perubahan proyek yang bermakna dicatat di sini secara kronologis. Perubaha
 
 ## Unreleased
 
+### 2026-11-25 — Live chat Tawk.to
+- **Ditambahkan:** widget Tawk.to AJIEEB pada semua halaman melalui satu pemuat bersama di JavaScript.
+- **Dioptimalkan:** skrip pihak ketiga baru diminta setelah halaman selesai dimuat dan browser idle (atau jeda 2,5 detik pada browser tanpa `requestIdleCallback`).
+- **Alasan:** menyediakan kanal live chat tanpa menambah skrip pada jalur render awal.
+- **Dokumen terkait:** [JavaScript](js/main.js), [README](README.md), [roadmap](docs/ROADMAP.md).
+
 ### 2026-11-25 — Penguatan SEO situs AJIEEB
 - **Diperjelas:** judul, deskripsi, cuplikan Open Graph, dan pengantar tiap halaman menyebut layanan website UMKM, cakupan, paket/harga, demo, serta kontak dengan lebih spesifik.
 - **Ditambahkan:** data terstruktur Organization dan WebSite pada beranda, hanya memakai fakta usaha yang tersedia.

@@ -15,7 +15,7 @@ Roadmap ini adalah urutan kerja yang disarankan. Item dapat disesuaikan saat inf
 - [x] Susun draf teks per bagian dengan bahasa yang mudah dipahami pemilik UMKM.
 - [x] Tentukan navigasi dan ajakan konsultasi utama.
 - [x] Buat rancangan warna, tipografi, aset, dan tata letak responsif awal.
-- [ ] Buat/konfigurasi akun Tawk.to sebelum live chat diaktifkan.
+- [x] Pasang embed Tawk.to AJIEEB di seluruh halaman dengan pemuatan tertunda setelah render awal.
 - [ ] Tampilkan Google Maps hanya pada website klien bila lokasi publik diberikan; AJIEEB belum menetapkan lokasi kantor untuk peta sendiri.
 
 ## 3. Bangun situs
