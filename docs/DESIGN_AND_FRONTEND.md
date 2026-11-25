@@ -60,7 +60,7 @@ AJIEEB/
 ## Integrasi yang menunggu konfigurasi
 
 - **Tawk.to:** belum aktif; tambahkan snippet resmi setelah akun/properti dibuat.
-- **Google Maps:** peta hanya ditambahkan pada situs klien jika alamat/lokasi publik diberikan; AJIEEB belum menampilkan peta kantor sendiri.
+- **Google Maps:** lokasi publik AJIEEB ditampilkan di halaman Kontak melalui iframe responsif `loading="lazy"`; pada situs klien peta hanya ditambahkan bila alamat/lokasi publik diberikan.
 - **Google Search Console:** penyiapan memerlukan domain/properti yang sudah aktif dan akses dari pemilik situs.
 - **Hosting dan Cloudflare:** domain gratis, hosting, DNS, dan SSL harus diverifikasi kompatibilitasnya sebelum situs diterbitkan.
 

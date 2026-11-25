@@ -28,7 +28,7 @@ Website standar terdiri dari tujuh halaman HTML terpisah:
 
 - Desain responsif untuk ponsel dan desktop.
 - Tombol WhatsApp untuk konsultasi.
-- Google Maps hanya jika ada lokasi yang ingin ditampilkan.
+- Google Maps disematkan di halaman Kontak untuk lokasi AJIEEB; iframe memakai `loading="lazy"` agar peta di bawah konten awal tidak langsung dimuat.
 - Live chat Tawk.to dimuat secara tertunda di seluruh halaman; obrolan aktif mengikuti ketersediaan operator di dasbor Tawk.to.
 - Formulir kontak hanya jika tersedia mekanisme untuk menerima dan memproses pesannya.
 - Persiapan SEO dasar dan Google Search Console setelah situs terbit.
@@ -74,7 +74,7 @@ Portofolio awal berisi 20 demo konsep untuk bisnis makanan/minuman. Tampilkan se
 - `js/main.js` â€” menu mobile dan perilaku ringan.
 - Rancangan tampilan dan arsitektur: [`docs/DESIGN_AND_FRONTEND.md`](docs/DESIGN_AND_FRONTEND.md)
 
-Frontend memakai HTML, CSS, dan JavaScript tanpa framework. Domain dan hosting aktif. Search Console menunggu verifikasi manual pemilik. Tawk.to terpasang di seluruh halaman dan skripnya dimuat setelah render awal; Google Maps hanya ditambahkan ke website klien bila alamat publik diberikan.
+Frontend memakai HTML, CSS, dan JavaScript tanpa framework. Domain dan hosting aktif. Search Console menunggu verifikasi manual pemilik. Tawk.to terpasang di seluruh halaman dan skripnya dimuat setelah render awal. Peta lokasi AJIEEB tersedia pada halaman Kontak dan dimuat secara lazy.
 
 ## SEO untuk website AJIEEB
 

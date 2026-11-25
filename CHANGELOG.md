@@ -4,6 +4,12 @@ Semua perubahan proyek yang bermakna dicatat di sini secara kronologis. Perubaha
 
 ## Unreleased
 
+### 2026-11-25 — Peta lokasi AJIEEB
+- **Ditambahkan:** sematan Google Maps pada halaman Kontak dengan judul iframe yang aksesibel dan tata letak responsif.
+- **Dioptimalkan:** iframe memakai `loading="lazy"` dan ruangnya dicadangkan agar peta di bawah konten awal tidak membebani render awal atau menggeser tata letak.
+- **Diperbarui:** metadata Kontak dan dokumentasi menyebut peta lokasi AJIEEB.
+- **Dokumen terkait:** [halaman Kontak](kontak.html), [stylesheet](css/styles.css), [README](README.md), [roadmap](docs/ROADMAP.md).
+
 ### 2026-11-25 — Live chat Tawk.to
 - **Ditambahkan:** widget Tawk.to AJIEEB pada semua halaman melalui satu pemuat bersama di JavaScript.
 - **Dioptimalkan:** skrip pihak ketiga baru diminta setelah halaman selesai dimuat dan browser idle (atau jeda 2,5 detik pada browser tanpa `requestIdleCallback`).

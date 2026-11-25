@@ -67,7 +67,7 @@ Pemilik atau pengelola UMKM yang membutuhkan kehadiran online dan ingin memahami
 
 - Situs responsif dan ringan dengan HTML, CSS, dan JavaScript.
 - Tombol WhatsApp menggunakan nomor resmi yang akan diberikan.
-- Peta Google bersifat opsional dan hanya ditambahkan bila alamat/lokasi publik relevan.
+- Lokasi Google Maps AJIEEB telah diberikan untuk ditampilkan pada halaman Kontak; untuk situs klien, peta hanya ditambahkan bila alamat/lokasi publik relevan.
 - Live chat memerlukan pilihan penyedia dan kesiapan untuk membalas; dapat ditambahkan setelah situs dasar siap.
 - Formulir tidak boleh memberi kesan terkirim jika belum ada layanan backend/penerima yang benar-benar memprosesnya.
 - SEO dasar mencakup judul dan deskripsi halaman yang relevan, struktur heading yang masuk akal, tautan yang jelas, serta sitemap/robots bila sesuai. Search Console dikonfigurasi setelah situs online dan kepemilikan dapat diverifikasi.
