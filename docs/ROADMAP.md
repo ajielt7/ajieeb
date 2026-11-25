@@ -24,6 +24,8 @@ Roadmap ini adalah urutan kerja yang disarankan. Item dapat disesuaikan saat inf
 - [x] Buat stylesheet responsif dan interaksi JavaScript seperlunya.
 - [x] Tambahkan judul dan deskripsi unik, canonical, metadata Open Graph, `sitemap.xml`, dan `robots.txt` untuk SEO AJIEEB.
 - [x] Tambahkan file verifikasi HTML Google Search Console di root situs: `google38392546284992d2.html`.
+- [x] Perbaiki kontras teks sekunder, kurangi CSS ikon yang tidak dipakai, dan hilangkan unduhan Google Fonts pada jalur awal.
+- [x] Sajikan foto Unsplash dalam ukuran responsif dan kompresi yang sesuai; pertahankan prioritas tinggi untuk foto hero.
 - [ ] Tambahkan favicon bila aset tersedia.
 - [ ] Pastikan tombol WhatsApp memakai tautan dan nomor yang benar.
 - [ ] Jangan aktifkan formulir tanpa mekanisme penerimaan pesan.

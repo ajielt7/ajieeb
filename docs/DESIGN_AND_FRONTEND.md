@@ -4,9 +4,10 @@
 
 - **Karakter:** sederhana, ramah, profesional, dan terjangkau.
 - **Warna utama:** hijau gelap untuk kepercayaan dan tombol utama; hijau muda sebagai aksen; krem sebagai latar; jingga lembut untuk aksen kecil.
-- **Tipografi:** DM Sans untuk teks dan Manrope untuk judul. Keduanya dimuat dari Google Fonts dengan fallback ke system sans-serif.
-- **Ikon:** Font Awesome melalui CDN; ikon dekoratif disembunyikan dari pembaca layar, sementara nama aksi ditulis sebagai teks.
-- **Foto:** Unsplash dengan crop sesuai konteks. Foto pada kartu demo adalah ilustrasi dan diberi keterangan, bukan screenshot karya.
+- **Tipografi:** system UI font untuk teks dan judul agar tidak menunggu unduhan font pihak ketiga.
+- **Ikon:** subset CSS hanya untuk ikon yang dipakai, sedangkan file font Font Awesome tetap disajikan melalui CDN dengan `font-display: swap`; ikon dekoratif disembunyikan dari pembaca layar.
+- **Foto:** Unsplash dengan `srcset`/`sizes`, kualitas terkompresi, dan prioritas tinggi hanya untuk foto hero LCP. Foto kartu demo adalah ilustrasi, bukan screenshot karya.
+- **Keterbacaan:** warna teks sekunder digelapkan agar teks kecil terbaca di atas latar terang.
 - **Tata letak:** tujuh halaman HTML terpisah dengan navigasi bersama, grid kartu, CTA WhatsApp, dan layout responsif.
 - **Animasi:** reveal halus saat bagian masuk viewport, stagger tipis pada kartu, dan gerak kecil pada aksen hero. Hormati `prefers-reduced-motion`; hindari animasi besar, kedipan, dan gerakan yang mengganggu membaca.
 - **Ruang dan tipografi:** rapatkan jarak vertikal antarbagian; gunakan judul besar, teks isi yang mudah dibaca, dan jangan memakai teks penting di bawah 12 px. Label/judul promosi dijaga sekitar 1–3 kata; penjelasan harga dan syarat tetap cukup lengkap.

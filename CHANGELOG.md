@@ -4,6 +4,12 @@ Semua perubahan proyek yang bermakna dicatat di sini secara kronologis. Perubaha
 
 ## Unreleased
 
+### 2026-11-25 — Perbaikan temuan Lighthouse/PageSpeed
+- **Diubah:** teks sekunder berkontras rendah digelapkan; Google Fonts diganti font sistem; stylesheet Font Awesome penuh diganti subset ikon yang digunakan, dengan file font CDN memakai `font-display: swap`.
+- **Dioptimalkan:** gambar Unsplash memakai `srcset`/`sizes` dan kualitas 72; gambar hero tetap diprioritaskan untuk LCP.
+- **Alasan:** menanggapi laporan kontras, CSS tak terpakai, pemblokiran render/font, keterlambatan LCP, dan ukuran gambar yang melebihi ukuran tampil.
+- **Dokumen terkait:** [stylesheet](css/styles.css), [halaman HTML](index.html), [rancangan frontend](docs/DESIGN_AND_FRONTEND.md), [roadmap](docs/ROADMAP.md).
+
 ### 2026-11-25 — File verifikasi Google Search Console
 - **Ditambahkan:** `google38392546284992d2.html` di root repositori agar workflow menempatkannya pada root situs AJIEEB.
 - **Status:** file disertakan dalam deployment berikutnya; verifikasi kepemilikan di Search Console masih perlu diselesaikan.
