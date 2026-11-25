@@ -4,6 +4,13 @@ Semua perubahan proyek yang bermakna dicatat di sini secara kronologis. Perubaha
 
 ## Unreleased
 
+### 2026-11-25 — Penguatan SEO situs AJIEEB
+- **Diperjelas:** judul, deskripsi, cuplikan Open Graph, dan pengantar tiap halaman menyebut layanan website UMKM, cakupan, paket/harga, demo, serta kontak dengan lebih spesifik.
+- **Ditambahkan:** data terstruktur Organization dan WebSite pada beranda, hanya memakai fakta usaha yang tersedia.
+- **Diperbarui:** README dan roadmap mencatat domain aktif dan status SEO/GSC yang sebenarnya; verifikasi Search Console dan pengiriman sitemap tetap langkah manual.
+- **Alasan:** membantu mesin pencari dan calon pelanggan memahami isi situs tanpa klaim peringkat atau hasil yang dijamin.
+- **Dokumen terkait:** [halaman situs](../index.html), [README](README.md), [roadmap](docs/ROADMAP.md).
+
 ### 2026-11-25 — Rantai render awal dan font ikon
 - **Diubah:** gaya kritis header/hero kini inline, stylesheet lengkap dipreload nonblocking, dan animasi reveal tidak lagi menunda hero atau judul halaman.
 - **Diubah:** font ikon Font Awesome dimuat setelah halaman tampil, memakai `font-display: swap`, sambil mempertahankan ikon CDN dan subset glyph yang dipakai.

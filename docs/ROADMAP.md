@@ -23,6 +23,8 @@ Roadmap ini adalah urutan kerja yang disarankan. Item dapat disesuaikan saat inf
 - [x] Buat struktur HTML semantik awal.
 - [x] Buat stylesheet responsif dan interaksi JavaScript seperlunya.
 - [x] Tambahkan judul dan deskripsi unik, canonical, metadata Open Graph, `sitemap.xml`, dan `robots.txt` untuk SEO AJIEEB.
+- [x] Perjelas isi dan cuplikan setiap halaman untuk layanan website UMKM, cakupan nasional, harga, demo, dan kontak.
+- [x] Tambahkan data terstruktur Organization dan WebSite di beranda tanpa mengarang alamat kantor, ulasan, atau profil sosial.
 - [x] Tambahkan file verifikasi HTML Google Search Console di root situs: `google38392546284992d2.html`.
 - [x] Perbaiki kontras teks sekunder, kurangi CSS ikon yang tidak dipakai, dan hilangkan unduhan Google Fonts pada jalur awal.
 - [x] Sajikan foto Unsplash dalam ukuran responsif dan kompresi yang sesuai; pertahankan prioritas tinggi untuk foto hero.
@@ -33,11 +35,11 @@ Roadmap ini adalah urutan kerja yang disarankan. Item dapat disesuaikan saat inf
 
 ## 4. Publikasikan
 
-- [ ] Pastikan nama domain dan dukungan konfigurasi tersedia.
-- [ ] Unggah/deploy kode melalui alur GitHub dan InfinityFree yang dipilih.
+- [x] Pastikan nama domain ajieeb.gt.tc aktif dan HTTPS berfungsi.
+- [x] Unggah/deploy kode melalui alur GitHub dan InfinityFree yang dipilih.
 - [ ] Atur Cloudflare sesuai dukungan domain, DNS, dan SSL.
 - [ ] Periksa situs di perangkat dan browser umum.
-- [ ] Pastikan domain final menggantikan URL rencana `ajieeb.gt.tc` jika berubah dan HTTPS aktif.
+- [x] Gunakan domain aktif ajieeb.gt.tc pada metadata SEO, sitemap, dan robots.
 - [ ] Daftarkan dan verifikasi situs AJIEEB di Google Search Console.
 - [ ] Pastikan file verifikasi dapat dibuka pada `https://ajieeb.gt.tc/google38392546284992d2.html`, lalu selesaikan verifikasi di Search Console.
 - [ ] Kirim `https://ajieeb.gt.tc/sitemap.xml` di Search Console setelah domain tayang.

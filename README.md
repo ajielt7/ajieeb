@@ -4,7 +4,7 @@ AJIEEB (Ajiz Web) adalah proyek website untuk memperkenalkan dan menawarkan jasa
 
 ## Status proyek
 
-**Tahap:** draf konten dan fondasi frontend awal. Tampilan masih perlu ditinjau dan integrasi layanan pihak ketiga belum dikonfigurasi.
+**Tahap:** situs tujuh halaman telah dipublikasikan di `https://ajieeb.gt.tc/`; optimasi SEO dasar AJIEEB sedang diterapkan.
 
 ## Tujuan
 
@@ -37,10 +37,10 @@ Website standar terdiri dari tujuh halaman HTML terpisah:
 
 - **Frontend:** HTML, CSS, dan JavaScript.
 - **Repositori kode:** GitHub.
-- **Hosting yang direncanakan:** InfinityFree.
-- **Domain yang diusulkan:** `ajieeb.gt.tc` (ketersediaan dan dukungan perlu diverifikasi sebelum peluncuran).
+- **Hosting:** InfinityFree.
+- **Domain aktif:** `ajieeb.gt.tc` (ketersediaan dan dukungan perlu diverifikasi sebelum peluncuran).
 - **Cloudflare:** direncanakan untuk DNS/perlindungan sesuai dukungan domain dan hosting. Konfigurasi harus mengikuti ketentuan registrar dan penyedia hosting.
-- **Google Search Console:** digunakan setelah domain dan situs dapat diverifikasi.
+- **Google Search Console:** file verifikasi HTML sudah disiapkan dan dideploy; pemilik perlu menyelesaikan verifikasi dan mengirim sitemap dari akun Search Console.
 
 ## Aset visual sementara
 
@@ -74,13 +74,13 @@ Portofolio awal berisi 20 demo konsep untuk bisnis makanan/minuman. Tampilkan se
 - `js/main.js` â€” menu mobile dan perilaku ringan.
 - Rancangan tampilan dan arsitektur: [`docs/DESIGN_AND_FRONTEND.md`](docs/DESIGN_AND_FRONTEND.md)
 
-Frontend memakai HTML, CSS, dan JavaScript tanpa framework. Tawk.to, Google Maps dinamis, Search Console, domain, dan hosting masih menunggu konfigurasi/verifikasi.
+Frontend memakai HTML, CSS, dan JavaScript tanpa framework. Domain dan hosting aktif. Search Console menunggu verifikasi manual pemilik; Tawk.to dan Google Maps hanya diaktifkan bila konfigurasi dan kebutuhan sudah tersedia.
 
 ## SEO untuk website AJIEEB
 
-Fondasi SEO situs AJIEEB sendiri sudah disiapkan: judul dan deskripsi unik per halaman, canonical dan metadata Open Graph, `sitemap.xml`, serta `robots.txt`. URL menggunakan `https://ajieeb.gt.tc/` sebagai domain rencana; pastikan domain benar-benar aktif dan HTTPS berfungsi sebelum publikasi. Jika alamat akhir berbeda, perbarui canonical, URL Open Graph, `sitemap.xml`, dan `robots.txt`.
+SEO situs AJIEEB sendiri mencakup judul dan deskripsi unik, canonical, Open Graph, data terstruktur Organization dan WebSite di beranda, sitemap.xml, serta robots.txt. Konten halaman menjelaskan layanan, cakupan, harga, contoh demo, dan kontak secara spesifik.
 
-Setelah situs tayang, verifikasi properti di Google Search Console, kirim sitemap, lalu pantau status pengindeksan. Metadata dan sitemap membantu mesin pencari memahami/menemukan situs, tetapi tidak menjamin halaman diindeks atau mendapat posisi tertentu. Search Console untuk AJIEEB sendiri berbeda dari jasa penyiapan Search Console bagi klien.
+Selesaikan verifikasi properti di Google Search Console, kirim sitemap.xml, lalu pantau status pengindeksan. Metadata dan sitemap membantu mesin pencari memahami/menemukan situs, tetapi tidak menjamin halaman diindeks atau mendapat posisi tertentu. Search Console untuk AJIEEB sendiri berbeda dari jasa penyiapan Search Console bagi klien.
 
 ## Dokumentasi dan catatan perubahan
 
