@@ -23,6 +23,7 @@ Roadmap ini adalah urutan kerja yang disarankan. Item dapat disesuaikan saat inf
 - [x] Buat struktur HTML semantik awal.
 - [x] Buat stylesheet responsif dan interaksi JavaScript seperlunya.
 - [x] Tambahkan judul dan deskripsi unik, canonical, metadata Open Graph, `sitemap.xml`, dan `robots.txt` untuk SEO AJIEEB.
+- [x] Tambahkan file verifikasi HTML Google Search Console di root situs: `google38392546284992d2.html`.
 - [ ] Tambahkan favicon bila aset tersedia.
 - [ ] Pastikan tombol WhatsApp memakai tautan dan nomor yang benar.
 - [ ] Jangan aktifkan formulir tanpa mekanisme penerimaan pesan.
@@ -35,6 +36,7 @@ Roadmap ini adalah urutan kerja yang disarankan. Item dapat disesuaikan saat inf
 - [ ] Periksa situs di perangkat dan browser umum.
 - [ ] Pastikan domain final menggantikan URL rencana `ajieeb.gt.tc` jika berubah dan HTTPS aktif.
 - [ ] Daftarkan dan verifikasi situs AJIEEB di Google Search Console.
+- [ ] Pastikan file verifikasi dapat dibuka pada `https://ajieeb.gt.tc/google38392546284992d2.html`, lalu selesaikan verifikasi di Search Console.
 - [ ] Kirim `https://ajieeb.gt.tc/sitemap.xml` di Search Console setelah domain tayang.
 - [ ] Pantau pengindeksan dan perbaiki masalah yang dilaporkan Search Console.
 

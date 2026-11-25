@@ -4,6 +4,11 @@ Semua perubahan proyek yang bermakna dicatat di sini secara kronologis. Perubaha
 
 ## Unreleased
 
+### 2026-11-25 — File verifikasi Google Search Console
+- **Ditambahkan:** `google38392546284992d2.html` di root repositori agar workflow menempatkannya pada root situs AJIEEB.
+- **Status:** file disertakan dalam deployment berikutnya; verifikasi kepemilikan di Search Console masih perlu diselesaikan.
+- **Dokumen terkait:** [roadmap](docs/ROADMAP.md), [workflow deployment](.github/workflows/deploy.yml).
+
 ### 2026-11-25 — Fondasi SEO untuk situs AJIEEB
 - **Ditambahkan:** canonical dan Open Graph unik pada tujuh halaman, serta `sitemap.xml` dan `robots.txt`.
 - **Diperjelas:** SEO ini untuk website AJIEEB sendiri; implementasi Search Console dan pengiriman sitemap menunggu situs tayang dan domain terverifikasi. URL `ajieeb.gt.tc` masih rencana dan harus disesuaikan bila alamat akhir berubah.
