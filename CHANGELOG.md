@@ -4,6 +4,12 @@ Semua perubahan proyek yang bermakna dicatat di sini secara kronologis. Perubaha
 
 ## Unreleased
 
+### 2026-11-25 — Rantai render awal dan font ikon
+- **Diubah:** gaya kritis header/hero kini inline, stylesheet lengkap dipreload nonblocking, dan animasi reveal tidak lagi menunda hero atau judul halaman.
+- **Diubah:** font ikon Font Awesome dimuat setelah halaman tampil, memakai `font-display: swap`, sambil mempertahankan ikon CDN dan subset glyph yang dipakai.
+- **Alasan:** menanggapi laporan rantai CSS-ke-font dan penundaan render LCP yang masih muncul setelah optimasi awal.
+- **Dokumen terkait:** [stylesheet](css/styles.css), [font ikon](css/icon-fonts.css), [JavaScript](js/main.js), [rancangan frontend](docs/DESIGN_AND_FRONTEND.md), [roadmap](docs/ROADMAP.md).
+
 ### 2026-11-25 — Perbaikan temuan Lighthouse/PageSpeed
 - **Diubah:** teks sekunder berkontras rendah digelapkan; Google Fonts diganti font sistem; stylesheet Font Awesome penuh diganti subset ikon yang digunakan, dengan file font CDN memakai `font-display: swap`.
 - **Dioptimalkan:** gambar Unsplash memakai `srcset`/`sizes` dan kualitas 72; gambar hero tetap diprioritaskan untuk LCP.

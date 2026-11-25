@@ -26,6 +26,7 @@ Roadmap ini adalah urutan kerja yang disarankan. Item dapat disesuaikan saat inf
 - [x] Tambahkan file verifikasi HTML Google Search Console di root situs: `google38392546284992d2.html`.
 - [x] Perbaiki kontras teks sekunder, kurangi CSS ikon yang tidak dipakai, dan hilangkan unduhan Google Fonts pada jalur awal.
 - [x] Sajikan foto Unsplash dalam ukuran responsif dan kompresi yang sesuai; pertahankan prioritas tinggi untuk foto hero.
+- [x] Pindahkan font ikon ke pemuatan setelah halaman selesai dimuat, tampilkan konten hero sejak awal, dan muat stylesheet lengkap secara nonblocking dengan gaya kritis inline.
 - [ ] Tambahkan favicon bila aset tersedia.
 - [ ] Pastikan tombol WhatsApp memakai tautan dan nomor yang benar.
 - [ ] Jangan aktifkan formulir tanpa mekanisme penerimaan pesan.

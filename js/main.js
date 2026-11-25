@@ -3,6 +3,39 @@
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 if (!reduceMotion && "IntersectionObserver" in window) document.documentElement.classList.add("js");
 
+function loadIconFonts() {
+  const fontStylesheet = document.createElement("link");
+  fontStylesheet.rel = "stylesheet";
+  fontStylesheet.href = "css/icon-fonts.css";
+  fontStylesheet.onload = () => {
+    const families = [
+      [".fa-solid", '900 16px "AJIEEB FA Solid"'],
+      [".fa-regular", '400 16px "AJIEEB FA Regular"'],
+      [".fa-brands", '400 16px "AJIEEB FA Brands"']
+    ];
+    const requests = families
+      .filter(([selector]) => document.querySelector(selector))
+      .map(([, font]) => document.fonts.load(font));
+
+    Promise.all(requests).then(() => {
+      document.documentElement.classList.remove("icons-pending");
+      document.documentElement.classList.add("icons-ready");
+    }).catch(() => {
+      document.documentElement.classList.remove("icons-pending");
+    });
+  };
+  fontStylesheet.onerror = () => document.documentElement.classList.remove("icons-pending");
+  document.head.append(fontStylesheet);
+}
+
+window.addEventListener("load", () => {
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(loadIconFonts, { timeout: 1500 });
+  } else {
+    window.setTimeout(loadIconFonts, 500);
+  }
+}, { once: true });
+
 if (!reduceMotion && "IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {

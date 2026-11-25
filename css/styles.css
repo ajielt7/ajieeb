@@ -29,12 +29,11 @@ button { font: inherit; }
 .skip-link:focus { transform: translateY(0); }
 
 /* Font Awesome subset: load only icons used by the site, with the CDN font files. */
-@font-face { font-family: "AJIEEB FA Solid"; src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-solid-900.woff2") format("woff2"); font-style: normal; font-weight: 900; font-display: swap; }
-@font-face { font-family: "AJIEEB FA Regular"; src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-regular-400.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: swap; }
-@font-face { font-family: "AJIEEB FA Brands"; src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-brands-400.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: swap; }
 .fa-solid, .fas { font-family: "AJIEEB FA Solid"; font-style: normal; font-weight: 900; }
 .fa-regular, .far { font-family: "AJIEEB FA Regular"; font-style: normal; font-weight: 400; }
 .fa-brands, .fab { font-family: "AJIEEB FA Brands"; font-style: normal; font-weight: 400; }
+html.icons-pending .fa-solid, html.icons-pending .fa-regular, html.icons-pending .fa-brands { visibility: hidden; }
+html.icons-ready .fa-solid, html.icons-ready .fa-regular, html.icons-ready .fa-brands { visibility: visible; }
 .fa-arrow-right::before { content: "\f061"; }
 .fa-arrow-up-right-from-square::before { content: "\f08e"; }
 .fa-bars::before { content: "\f0c9"; }
@@ -63,6 +62,7 @@ button { font: inherit; }
 .fa-tag::before { content: "\f02b"; }
 .fa-tags::before { content: "\f02c"; }
 .fa-wand-magic-sparkles::before { content: "\e2ca"; }
+.fa-xmark::before { content: "\f00d"; }
 .fa-circle-question::before { content: "\f059"; }
 .fa-comments::before { content: "\f086"; }
 .fa-image::before { content: "\f03e"; }

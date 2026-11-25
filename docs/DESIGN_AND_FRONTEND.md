@@ -5,7 +5,8 @@
 - **Karakter:** sederhana, ramah, profesional, dan terjangkau.
 - **Warna utama:** hijau gelap untuk kepercayaan dan tombol utama; hijau muda sebagai aksen; krem sebagai latar; jingga lembut untuk aksen kecil.
 - **Tipografi:** system UI font untuk teks dan judul agar tidak menunggu unduhan font pihak ketiga.
-- **Ikon:** subset CSS hanya untuk ikon yang dipakai, sedangkan file font Font Awesome tetap disajikan melalui CDN dengan `font-display: swap`; ikon dekoratif disembunyikan dari pembaca layar.
+- **Ikon:** subset CSS hanya untuk ikon yang dipakai; file font Font Awesome CDN dimuat saat halaman selesai tampil dan memakai `font-display: swap` agar tidak berada di jalur LCP.
+- **CSS awal:** gaya kritis header dan hero ditulis inline; stylesheet lengkap dipreload dan diterapkan secara nonblocking untuk menghindari rantai CSS pada render awal.
 - **Foto:** Unsplash dengan `srcset`/`sizes`, kualitas terkompresi, dan prioritas tinggi hanya untuk foto hero LCP. Foto kartu demo adalah ilustrasi, bukan screenshot karya.
 - **Keterbacaan:** warna teks sekunder digelapkan agar teks kecil terbaca di atas latar terang.
 - **Tata letak:** tujuh halaman HTML terpisah dengan navigasi bersama, grid kartu, CTA WhatsApp, dan layout responsif.
